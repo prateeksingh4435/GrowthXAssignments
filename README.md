@@ -23,7 +23,6 @@ source venv/bin/activate
 # Install dependencies:
 pip install -r requirements.txt
 
-
 # Set up MongoDB:
 
 Ensure you have MongoDB running locally or provide a MongoDB Atlas connection string.
@@ -43,9 +42,9 @@ POST /assignments/:id/reject - Reject an assignment.
 
 # Validation and Error Handling
 Input Validation:
-
 All inputs to the API endpoints are validated using serializers. This ensures that only valid data is processed.
 For example, when a user registers or uploads an assignment, the data is passed through a serializer that checks for required fields, data types, and any other constraints.
 Error Messages:
-
 When validation fails, the serializer returns specific error messages that inform the user about what went wrong. Here are examples of common validation errors:
+# Note
+Please note that I encountered a database error with Djongo during the assignment retrieval process (admins) . This issue arises from an older version of Djongo, which has several library-related issues. However, I can confirm that the API functions perfectly with other databases.
