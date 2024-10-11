@@ -12,7 +12,7 @@ MongoDB
 RESTful API
 
 # Setup Instructions
-Clone the repository:
+Clone the repository: git clone https://github.com/prateeksingh4435/GrowthXAssignments.git
 
 
 # Create a virtual environment:
